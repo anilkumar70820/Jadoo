@@ -1,0 +1,159 @@
+/* ======Font Family Links======= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap');
+
+/* ======Font Family Links End======= */
+/* ========Root Start========== */
+:root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-xmd: 18px;
+    --fs-md: 20px;
+    --fs-lg: 33px;
+    --fs-xlg: 44px;
+    --fs-xl: 50px;
+    --fs-xxl: 84px;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+    --text-212832: #212832;
+    --text-df6951: #df6951;
+    --text-181e4b: #181e4b;
+    --text-5e6282: #5e6282;
+    --text-ffffff: #ffffff;
+    --text-686d77: #686d77;
+    --text-14183e: #14183e;
+    --text-1e1d4c: #1e1d4c;
+    --text-080809: #080809;
+    --text-84829a: #84829a;
+    --text-8a79df: #8a79df;
+    --text-39425d: #39425d;
+}
+
+.fs-xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-xmd {
+    font-size: var(--fs-xmd);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xlg {
+    font-size: var(--fs-xlg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+
+.fw-semi-bold {
+    font-weight: var(--fw-semi-bold);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.text-212832 {
+    color: var(--text-212832);
+}
+
+.text-df6951 {
+    color: var(--text-df6951);
+}
+
+.text-181e4b {
+    color: var(--text-181e4b);
+}
+
+.text-5e6282 {
+    color: var(--text-5e6282);
+}
+
+.text-ffffff {
+    color: var(--text-ffffff);
+}
+
+.text-686d77 {
+    color: var(--text-686d77);
+}
+
+.text-14183e {
+    color: var(--text-14183e);
+}
+
+.text-1e1d4c {
+    color: var(--text-1e1d4c);
+}
+
+.text-080809 {
+    color: var(--text-080809);
+}
+
+.text-84829a {
+    color: var(--text-84829a);
+}
+
+.text-8a79df {
+    color: var(--text-8a79df);
+}
+
+.text-39425d {
+    color: var(--text-39425d);
+}
+
+/* ========Root End========= */
+/* ========Component Based Classes */
+.nav {
+    font-size: var(--fs-xmd);
+    color: var(--text-212832);
+}
+
+.paragraph {
+    font-family: "poppins";
+    font-size: var(--fs-sm);
+    color: var(--text-5e6282);
+}
+
+/* =========Component Based Classes End========= */
+/* =========Comman Classes=========== */
+.ff-poppins {
+    font-family: "poppins";
+}
+
+.ff-volkhov {
+    font-family: "volkhov";
+}
+
+.ff-montserrat {
+    font-family: "montserrat";
+}
+
+.ff-open-sans {
+    font-family: "open sans";
+}
+/* ============Common Clases End============= */
