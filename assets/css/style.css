@@ -4,6 +4,8 @@
 /* ======Font Family Links End======= */
 /* ========Root Start========== */
 :root {
+
+    /* FONT-SIZES */
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-xmd: 18px;
@@ -16,6 +18,9 @@
     --fw-medium: 500;
     --fw-semi-bold: 600;
     --fw-bold: 700;
+
+
+    /* Colors */
     --text-212832: #212832;
     --text-df6951: #df6951;
     --text-181e4b: #181e4b;
