@@ -1,5 +1,5 @@
 /* ======Font Family Links======= */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700&family=Volkhov:wght@400;700&display=swap');
 
 /* ======Font Family Links End======= */
 * {
@@ -21,6 +21,8 @@
 /* ========Root Start========== */
 :root {
     /* ==Font Size== */
+
+    /* FONT-SIZES */
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-xmd: 18px;
@@ -34,6 +36,9 @@
     --fw-semi-bold: 600;
     --fw-bold: 700;
     /* ==Text Color */
+
+
+    /* Colors */
     --text-212832: #212832;
     --text-df6951: #df6951;
     --text-181e4b: #181e4b;
@@ -179,6 +184,7 @@
 .ff-google-sans {
     font-family: "Google Sans";
 }
+
 
 /* ============Common Clases End============= */
 /* ==========Nav Start======== */
