@@ -1,5 +1,5 @@
 /* ======Font Family Links======= */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700&family=Volkhov:wght@400;700&display=swap');
 
 /* ======Font Family Links End======= */
 /* ========Root Start========== */
@@ -156,4 +156,5 @@
 .ff-open-sans {
     font-family: "open sans";
 }
+
 /* ============Common Clases End============= */
