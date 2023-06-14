@@ -480,12 +480,11 @@ header ul li ul li:hover {
 }
 
 .img {
-    overflow: hidden;
     transition: all 300ms linear;
 }
 
 
-.img:hover img {
+.box-1:hover .img {
     transform: scale(1.5);
 }
 
