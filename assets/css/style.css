@@ -381,7 +381,7 @@ header ul li ul li:hover {
 
 .spring-abso {
     position: absolute;
-    right: -5%;
+    right: -20%;
     bottom: 10%;
     z-index: -1;
 }
