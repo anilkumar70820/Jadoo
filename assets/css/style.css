@@ -191,7 +191,6 @@
 .sign-up-btn {
     border: 1px solid #212832;
     border-radius: 5px;
-    /* padding: 9px 22px; */
     width: 102px;
     height: 40px;
     display: flex;
@@ -199,6 +198,31 @@
     align-items: center;
     background-color: #fff1da;
     transition: all 500ms linear;
+}
+
+nav ul li a {
+    position: relative;
+}
+
+nav>ul>li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #C963E8;
+    display: inline-block;
+    transition: all 500ms linear;
+}
+
+nav>ul>li>a:hover::after {
+    width: 100%;
+}
+
+.nav-decorate:hover {
+    color: red;
+    text-shadow: 1px 1px red;
 }
 
 .sign-up-btn:hover {
@@ -242,6 +266,7 @@ header ul li ul li:hover {
     border-radius: 10px;
     padding: 19px 27px;
     box-shadow: 0px 20px 35px 0px #F1A50126;
+    transition: all 500ms linear;
 }
 
 .find-btn:hover {
@@ -371,6 +396,10 @@ header ul li ul li:hover {
     cursor: pointer;
 }
 
+.destination:hover .img {
+    scale: 1.1;
+}
+
 .img {
     transition: all 500ms linear;
 }
@@ -381,8 +410,10 @@ header ul li ul li:hover {
 
 .spring-abso {
     position: absolute;
+    width: 96px;
+    height: 252px;
     right: -20%;
-    bottom: 10%;
+    top: 35%;
     z-index: -1;
 }
 
@@ -400,7 +431,6 @@ header ul li ul li:hover {
     width: 370px;
     height: 400px;
     background: #FFFFFF;
-    /* box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481); */
     border-radius: 26px;
 }
 
@@ -410,7 +440,6 @@ header ul li ul li:hover {
     background: #FFFFFF;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
     border-radius: 18px;
-
 }
 
 .line {
@@ -459,8 +488,6 @@ header ul li ul li:hover {
     }
 }
 
-
-
 .line-1 {
     width: 156px;
     height: 5px;
@@ -476,13 +503,12 @@ header ul li ul li:hover {
 .position-absolute-bg {
     position: absolute;
     top: -5%;
-    left: 15%;
+    left: 10%;
 }
 
 .img {
     transition: all 300ms linear;
 }
-
 
 .box-1:hover .img {
     transform: scale(1.5);
@@ -560,7 +586,6 @@ div::-webkit-scrollbar {
 .filter_darkgrey {
     filter: grayscale(100%);
     transition: 300ms linear;
-
 }
 
 .border-1 {
@@ -577,7 +602,7 @@ div::-webkit-scrollbar {
 .position-absolute-arrow-top {
     position: absolute;
     right: 5%;
-    top: 22%;
+    top: 28%;
 }
 
 .position-absolute-arrow-down {
@@ -596,7 +621,7 @@ div::-webkit-scrollbar {
 
 .slick-dots {
     position: absolute;
-    bottom: 25% !important;
+    bottom: 11% !important;
     right: 147%;
     display: block;
     width: 100%;
@@ -613,12 +638,28 @@ div::-webkit-scrollbar {
     background-color: #ffffff;
     border-radius: 10px;
     width: 40%;
+    height: 68px;
 }
 
 .input-btn {
     border: none;
     background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
-    padding: 25px 50px;
+    padding: 22px 50px;
+    border-radius: 10px;
+    transition: all 400ms linear;
+}
+
+input[type="email"] {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #39425D;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -641,14 +682,10 @@ div::-webkit-scrollbar {
     line-height: 54px;
 }
 
-.outline_n {
-    outline: none;
-    border: none;
-}
-
-.input {
-    padding: 25px 31px 25px 31px;
-    width: 100%;
+.decor-abs {
+    position: absolute;
+    right: 1%;
+    bottom: -5%;
 }
 
 .round-img {
@@ -679,10 +716,14 @@ div::-webkit-scrollbar {
 /* footer section */
 .social-icon {
     border: none;
-    padding: 17px 16px 15px;
+    width: 41px;
+    height: 41px;
     background: #FFFFFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all ease-in-out 300ms !important;
 }
 
@@ -903,6 +944,21 @@ h2 span {
 
     .fs-25px {
         font-size: 25px;
+    }
+
+    .input_text {
+        width: 100%;
+    }
+
+    .bg-filter {
+        width: 0;
+        height: 0;
+    }
+
+    .cl-arrow {
+        position: absolute;
+        top: -4%;
+        right: 2%;
     }
 }
 
