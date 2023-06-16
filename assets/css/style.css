@@ -810,6 +810,30 @@ h2 span {
     font-size: 7px;
 }
 
+.back-top {
+    --offset: 50px;
+    position: sticky;
+    bottom: 20px;
+    left: 100%;
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    /* button style */
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #080809;
+    border: 2px solid black;
+    
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 500ms linear;
+}
+
+.back-top:hover {
+    background-color: black;
+    color: white;
+}
+
 /* =====Media Quries Start========== */
 @media (max-width:1200px) {
     .w-lg-100 {
